@@ -13,13 +13,13 @@ public class DiceGame {
 	System.out.print(">");
 	String name = sc.next();
 	System.out.println("Hello, " + name + "!");
-	System.out.println("Rolling dice...");
+	System.out.println("Rolling the dice...");
 	
 	for(int i=1;i<3;i++)
 	    System.out.println("Die "+ i +": " + a[i-1]);
 	System.out.println("Total value: " + total);
-	if(total>7) System.out.println("You won");
-	else System.out.println("You lost");
+	if(total>7) System.out.println(name+" won!");
+	else System.out.println(name+" lost!");
     }
 }
 
