@@ -1,4 +1,5 @@
 import java.util.Scanner;
+
 public class DiceGame {
     public static void main(String args[]){
 	Scanner sc = new Scanner(System.in);
@@ -13,6 +14,7 @@ public class DiceGame {
 	String name = sc.next();
 	System.out.println("Hello, " + name + "!");
 	System.out.println("Rolling dice...");
+	
 	for(int i=1;i<3;i++)
 	    System.out.println("Die "+ i +": " + a[i-1]);
 	System.out.println("Total value: " + total);
